@@ -12,3 +12,6 @@ composer.lock
 
 # Operating system files
 .DS_Store
+
+# jetbrains
+/.idea/

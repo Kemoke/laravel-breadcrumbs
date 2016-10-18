@@ -1,6 +1,6 @@
 <?php
 
-use DaveJamesMiller\Breadcrumbs\Manager;
+use Kemoke\Breadcrumbs\Manager;
 use Mockery as m;
 
 class ManagerTest extends TestCase {

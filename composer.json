@@ -1,5 +1,5 @@
 {
-	"name": "davejamesmiller/laravel-breadcrumbs",
+	"name": "kemoke/laravel-breadcrumbs",
 	"description": "A simple Laravel-style way to create breadcrumbs in Laravel 4+.",
 	"keywords": [
 		"laravel"
@@ -10,6 +10,11 @@
 			"name": "Dave James Miller",
 			"email": "dave@davejamesmiller.com",
 			"homepage": "https://davejamesmiller.com/"
+		},
+		{
+			"name": "Kemal Hrelja",
+			"email" : "mail@kemoke.net",
+			"homepage" : "http://kemoke.net/"
 		}
 	],
 	"license": "MIT License",
@@ -26,7 +31,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"DaveJamesMiller\\Breadcrumbs\\": "src/"
+			"Kemoke\\Breadcrumbs\\": "src/"
 		}
 	}
 }

@@ -1,6 +1,6 @@
 <?php
 
-use DaveJamesMiller\Breadcrumbs\CurrentRoute;
+use Kemoke\Breadcrumbs\CurrentRoute;
 use Mockery as m;
 
 class CurrentRouteTest extends TestCase {
@@ -39,7 +39,7 @@ class CurrentRouteTest extends TestCase {
 	}
 
     /**
-     * @expectedException DaveJamesMiller\Breadcrumbs\Exception
+     * @expectedException Kemoke\Breadcrumbs\Exception
      * @expectedExceptionMessage The current route (GET /sample/unnamed) is not named - please check routes.php for an "as" parameter
      */
 	public function testUnnamedRoute()
